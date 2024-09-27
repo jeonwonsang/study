@@ -1,0 +1,20 @@
+package Study_01;
+
+public class While {
+	public static void main(String[] args) {
+		// 조건이 참일때 반복적으로 코드를 실행
+		// while(조건){반복내용}
+		int i = 0;
+		while (i < 3) {
+			System.out.println(i);
+			i++;
+		}
+		// 조건값에다 true를 입력시 무한반복가능
+		while (true) {
+			System.out.println("무한루프");
+		}
+		// break 반복중단
+		// continue 다음 반복으로 넘어가기 [ for 문과 동일 ]
+		// return 메서드를 종료하고 값 반환(반복도 종료)
+	}
+}

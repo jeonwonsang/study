@@ -1,0 +1,18 @@
+public class AnotherClass {
+	public static void main(String[] args) {
+		// 다른 클래스의 정보를 불러오는 방법은 여러가지가 있다
+		// 1. 새로운 객채를 만들어서 호출하는 방법
+		// TestClass라는 클래스를 dog1 이라는 이름으로 가져와서
+		TestClass dog1 = new TestClass();
+		// TestClass 클래스에 있는 bark() 메서드를 진행시킨다
+		dog1.bark();
+		
+		// 2. TestClass 클래스에 add 라는 메서드를 만들고 static으로 정리하여
+		// 객체를 사용하지않고 바로 부를수있다
+		TestClass.add(5, 6);
+		// 위에서 부른방법으로도 사용 가능하다
+		dog1.add(7, 10);
+		// 다른 패키지에 있는 자료는 불러올때 상단에서 import 하여 불러온다
+		// 이후 객체를 만들어서 1번을 진행한다
+	}
+}

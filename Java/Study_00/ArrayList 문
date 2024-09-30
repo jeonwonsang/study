@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 
 public class List {
@@ -53,5 +52,10 @@ public class List {
 			words.set(i, words.get(i) + "추가됨");
 		}
 		System.out.println(words);
+		
+		//그렇다면 List와 ArrayList는 어떻게 다른가?
+		// List는 인터페이스이고 ArrayList는 실제적인 데이터구조
+		// 따라서 List는 직접적으로 사용은 불가능하고 ArrayList나 다른것을 함께 사용해야합니다.
+		
 	}
 }

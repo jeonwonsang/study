@@ -35,5 +35,21 @@ public class List {
 		num.remove(Integer.valueOf(3));
 		System.out.println(num);
 
+		// 목록에서 set 을 사용하면 수정할수있다.
+		ArrayList<String> words = new ArrayList<>();
+		words.add("가방");
+		words.add("책상");
+		words.add("책");
+		System.out.println(words);
+		// 수정할땐 (인덱스값 / 변경내용)
+		words.set(0, "오렌지");
+		System.out.println(words);
+		// size()를 사용하면 리스트안의 값의 개수를 확인합니다.
+		System.out.println(words.size());
+		// 모든값을 수정하려면 for문을 사용합니다.
+		for (int i = 0; i < words.size(); i++) {
+			words.set(i, words.get(i) + "추가됨");
+		}
+		System.out.println(words);
 	}
 }

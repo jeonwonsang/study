@@ -16,3 +16,12 @@ public class AnotherClass {
 		// 이후 객체를 만들어서 1번을 진행한다
 	}
 }
+
+public class TestClass {
+	public void bark() {
+		System.err.println("멍");
+	}
+	public static void add(int a, int b) {
+		System.out.println(a+b);
+	}
+}

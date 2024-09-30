@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 
 public class List {
@@ -47,6 +48,7 @@ public class List {
 		// size()를 사용하면 리스트안의 값의 개수를 확인합니다.
 		System.out.println(words.size());
 		// 모든값을 수정하려면 for문을 사용합니다.
+		// 배열에서 조회를 하고싶을때는 get(인덱스)을 사용합니다.
 		for (int i = 0; i < words.size(); i++) {
 			words.set(i, words.get(i) + "추가됨");
 		}

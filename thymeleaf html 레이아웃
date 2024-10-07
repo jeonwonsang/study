@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="www.thymeleaf.org"
+      xmlns:layout="www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>School Manager</title>
+
+    <!--  전체 적용될 CSS  -->
+    <th:block layout:fragment="CSS">
+
+    </th:block>
+
+    <!--  전체 적용될 스크립트  -->
+    <th:block layout:fragment="script">
+
+    </th:block>
+
+</head>
+<body>
+
+<!-- 헤더 넣기-->
+<th:block th:replace="fragments/header :: header">
+
+</th:block>
+
+<!-- 우리가 작업한 내용  들어갈 곳-->
+<th:block layout:fragment="content">
+
+</th:block>
+
+<!-- 푸터 넣기-->
+<th:block th:replace="fragments/footer :: footer">
+
+</th:block>
+
+</body>
+</html>
+
+
+
+
+

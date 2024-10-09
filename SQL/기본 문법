@@ -1,0 +1,24 @@
+
+SQL CRUD
+
+1. SELECT 문 (조회)
+SELECT (조회할 곳) FROM (테이블명) WHERE (조건);
+
+2. INSERT 문 (삽입)
+INSERT INTO (테이블명) (어디에 1, 2, 3, ----) VALUES (뭐를 1, 2, 3 ---);
+
+3. UPDATE 문 (수정)
+UPDATE (테이블명) SET (어디를) = (이거로),--- WHERE (조건);
+
+4. DELETE 문 (삭제)
+DELTE FROM (테이블명) WHERE (조건);
+
+JOIN 문 (테이블 간 연결)
+SELECT 조회할 곳 FROM 테이블1 INNER JOIN  테이블2 ON 테이블1.같은곳 = 테이블2.같은곳;
+
+GROUP BY 문 (그룹해서 출력)
+SELECT 조회할 곳, 집계함수 FROM 테이블명 GROUP BY 기준점;
+집계함수 : [COUNT/SUM/AVG/MAX/MIN]
+
+ORDER BY 문 (정렬)
+SELECT 조회할 곳 FROM 테이블명 ORDER BY 기준점 ASC/DESC;
